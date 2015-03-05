@@ -32,6 +32,14 @@
   font-size: 30px;
 }
 /* line 26, ../sass/mainpage.scss */
+#background #central-container #form-container {
+  text-align: left;
+  border-radius: 5px;
+  background-color: #fafafa;
+  padding: 10px;
+  display: block;
+}
+/* line 33, ../sass/mainpage.scss */
 #background #central-container #input-block {
   margin-top: 40px;
   background-color: black;
@@ -39,25 +47,25 @@
   text-align: center;
   padding: 20px 0;
 }
-/* line 32, ../sass/mainpage.scss */
-#background #central-container #input-block input, #background #central-container #input-block button {
+/* line 39, ../sass/mainpage.scss */
+#background #central-container #input-block input, #background #central-container #input-block .btn {
   padding: 7px 5px;
   border-radius: 3px;
   box-shadow: none;
   margin: 7px;
 }
-/* line 38, ../sass/mainpage.scss */
+/* line 45, ../sass/mainpage.scss */
 #background #central-container #input-block input {
   width: 23%;
 }
-/* line 41, ../sass/mainpage.scss */
-#background #central-container #input-block button {
+/* line 48, ../sass/mainpage.scss */
+#background #central-container #input-block .btn {
   width: 15%;
   background-color: green;
   color: white;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
-/* line 51, ../sass/mainpage.scss */
+/* line 58, ../sass/mainpage.scss */
 #background #bottom-background {
   position: absolute;
   left: 0;
@@ -66,12 +74,12 @@
   background-color: rgba(0, 0, 0, 0.75);
   text-align: center;
 }
-/* line 56, ../sass/mainpage.scss */
+/* line 63, ../sass/mainpage.scss */
 #background #bottom-background #bottom-container {
   width: 1000px;
   display: inline-block;
 }
-/* line 59, ../sass/mainpage.scss */
+/* line 66, ../sass/mainpage.scss */
 #background #bottom-background #bottom-container .container {
   margin: 10px 0;
   display: inline-block;
@@ -81,22 +89,22 @@
   color: white;
   text-shadow: 1px 1px 1px black;
 }
-/* line 67, ../sass/mainpage.scss */
+/* line 74, ../sass/mainpage.scss */
 #background #bottom-background #bottom-container .container:last-child {
   border-right: none;
 }
-/* line 70, ../sass/mainpage.scss */
+/* line 77, ../sass/mainpage.scss */
 #background #bottom-background #bottom-container .container h1 {
   margin: 10px 0;
   font-size: 20px;
 }
-/* line 74, ../sass/mainpage.scss */
+/* line 81, ../sass/mainpage.scss */
 #background #bottom-background #bottom-container .container p {
   color: rgba(255, 255, 255, 0.85);
   font-size: 14px;
   text-align: left;
 }
-/* line 79, ../sass/mainpage.scss */
+/* line 86, ../sass/mainpage.scss */
 #background #bottom-background #bottom-container .container button {
   font-size: 14px;
   padding: 7px 5px;

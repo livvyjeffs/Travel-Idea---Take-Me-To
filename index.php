@@ -10,6 +10,10 @@
 
   <title>Travel Idea</title>
 
+  <!-- JQuery CDN -->
+  <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+
+  <!-- Stylesheets -->
   <link href="stylesheets/styles.css" rel="stylesheet">
   <link href="stylesheets/mainpage.css" rel="stylesheet">
 
@@ -28,12 +32,11 @@
         <input placeholder="When do you want to go?">
         <input placeholder="For how long?">
         <input placeholder="What's your budget?">
-        <button>Take me to Thailand</button>
+        <a href="form-2.php" class="btn" id="take-me-to-thailand">Take me to Thailand</a>
       </form>
     </div>
     <div id="bottom-background">
       <div id="bottom-container">
-
         <div class="container">
           <h1>Ride Elephants in Chiang Mai</h1>
           <p>Thailand has many landscapes and adventures. Riding an elephant is just the tip of the iceberg. You can go cave-trekking, bush-whack through the jungle, or if you can, climb a coconut tree like the natives.</p>
@@ -53,5 +56,7 @@
     </div>
   </div>
 </body>
+
+<script type="text/javascript" async src="javascripts/mainpage.js"></script>
 
 </html>
